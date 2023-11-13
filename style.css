@@ -4,3 +4,39 @@ body{
     padding-left: 20px;
     padding-right: 20px;
 }
+input[type="button"] {
+    position: relative;
+    margin: 0.5em;
+    padding: .5em 1em;
+    width: 10em;
+    background: transparent;
+    color: #999999;
+    border: thin solid #999999;
+    border-radius: .2em;
+    cursor: pointer;
+    transition: all ease 0.7s;
+    overflow: hidden;
+}
+input[type="button"]:hover {
+    outline: none;
+    background: #0f0fff52;
+    color: #999999;
+}
+button {
+    position: relative;
+    margin: 0.5em;
+    padding: .5em 1em;
+    width: 10em;
+    background: transparent;
+    color: #999999;
+    border: thin solid #999999;
+    border-radius: .2em;
+    cursor: pointer;
+    transition: all ease 0.7s;
+    overflow: hidden;
+}
+button:hover {
+    outline: none;
+    background: #0f0fff52;
+    color: #999999;
+}
